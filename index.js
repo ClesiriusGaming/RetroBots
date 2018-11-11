@@ -6,7 +6,7 @@ const bot = new Discord.Client();
 var prefix = ".";
 
 
-bot.login(process.env.TOKEN);
+bot.login(process.env.token);
 
 bot.on("ready", () => {
   console.log("Je suis prêt")
