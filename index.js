@@ -11,7 +11,7 @@ bot.login(process.env.token);
 bot.on("ready", () => {
   console.log("Je suis prêt")
   
-bot.user.setActivity("[.help] I CS®『🚫』3 servs", {type:"STREAMING"});    
+bot.user.setActivity("[.help] I TS®『🚫』3 servs", {type:"STREAMING"});    
 });
 
 bot.on("guildMemberAdd", member => {
