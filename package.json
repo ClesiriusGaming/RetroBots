@@ -1,14 +1,15 @@
 {
-  "name": "retrobots",
+  "name": "teamsecurity",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ClesiriusYT",
-  "license": "MIT",
-  "dependencies": {
-    "discord.js": "^11.3.2"
-  }
+  "author": "ClesiriusPE",
+  "license": "ISC"
 }
