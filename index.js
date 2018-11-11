@@ -2,7 +2,6 @@ const Discord = require('discord.js');
 
 const bot = new Discord.Client();
 
-const fs = require('fs-extra');
 
 var prefix = ".";
 
@@ -12,7 +11,7 @@ bot.login(process.env.TOKEN);
 bot.on("ready", () => {
   console.log("Je suis prêt")
   
-bot.user.setActivity("[.help] I TS®『🚫』3 servs", {type:"STREAMING"});    
+bot.user.setActivity(".help I TS®『🚫』3 servs", {type:"STREAMING"});    
 });
 
 bot.on("guildMemberAdd", member => {
